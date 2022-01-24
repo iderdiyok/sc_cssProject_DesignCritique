@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: graphik-m;
+    src: url(../fonts/Graphik-Medium.ttf);
+}
+@font-face{
+    font-family: graphik-r;
+    src: url(../fonts/Graphik-Regular.woff);
+}
+@font-face{
+    font-family: theinhardt;
+    src: url(../fonts/Theinhardt-Lt.woff);
+}
+@font-face{
+    font-family: tiempos;
+    src: url(../fonts/TiemposHeadline-Semibold.woff);
+}
+.graphik-m{
+    font-family: "graphik-m";
+}
+.graphik-r{
+    font-family: "graphik-r";
+}
+.theinhardt{
+    font-family: "theinhardt";
+}
+.tiempos{
+    font-family: "tiempos";
+}
+.w-85{
+    width: 85%;
+    margin: 0 auto;
+}
+.w-60{
+    width: 60%;
+}
+a{
+    text-decoration: unset;
+    color: unset;
+}
+
+/* header */
+header{
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header ul{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+header .logo{
+    font-size: 1.7em;
+    font-weight: 600;
+}
+header .get a{
+    border: 1px solid;
+    padding: .5em 3em;
+    transition: all .5s ease;
+}
+header .get a:hover{
+    background-color: #2B2C2E;
+    color: #fff;
+}
+
+/* main */
+main section:nth-of-type(1){
+    height: 90vh;
+    background: url(../img/home_hero.png) no-repeat center/83%; 
+}
+main section:nth-of-type(1) h1{
+    text-align: center;
+    font-size: 2em;
+    margin-top: 2em;
+    color: #2B2C2E;
+}
+.first{
+    display: flex;
+    margin: 5em 0;
+}
+.first p{
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+.first div{
+    padding: 0 7em;
+}
+.first div h2{
+    font-size: 3.3em;
+    margin-bottom: .3em;
+}
+.first div span{
+    font-size: 1.1em;
+    color: #9FA2A7;
+}
+.second{
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+}
+.second .secondImg{
+    width: 50%;
+}
+.second .secondImg img{
+    width: 100%;
+}
+.second .secondTxt{
+    width: 50%;
+}
+.second .secondTxt h2{
+    font-size: 3.5em;
+    margin-bottom: 1em;
+}
+.second .secondTxt div{
+    margin-bottom: 2em;
+}
+.second .secondTxt div h3{
+    font-size: 1.3em;
+    font-family: "graphik-m";
+    margin-bottom: .7em;
+}
+.second .secondTxt div p{
+    font-size: 1.1em;
+    font-family: "theinhardt";
+    color: #9FA2A7;
+}
+.third{
+    background-color: #f5f5f5;
+    display: flex;
+    margin: 5em 0;
+    padding: 1em 0;
+}
+.thirdTxt{
+    padding: 3em;
+}
+.thirdTxt h2{
+    font-size: 2em;
+    margin-bottom: .5em;
+}
+.thirdTxt ol{
+    margin: 0 0 1.5em 2em;
+    color: #9FA2A7;
+}
+.thirdTxt p{
+    color: #9FA2A7;
+}
+.thirdImg img{
+    width: 80%;
+    text-align: center;
+    margin-top: 1em;
+}
+.fourth{
+    padding-bottom: 5em;
+    margin-bottom: 5em;
+    border-bottom: 1px solid;
+}
+.critique{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 2;
+}
+.critique h2{
+    font-size: 2.4em;
+    margin-bottom: .5em;
+}
+.critique p{
+    color: #9FA2A7;
+    margin-bottom: 10em;
+}
+.fourth28{
+    background: url(../img/28.png) no-repeat top/100%;
+}
+.fourthTxtAndImg{
+    display: flex;
+    align-items: center;
+    padding: 10em 2em 0 14em;
+}
+.fourthTxtAndImg p{
+    color: #9FA2A7;
+    line-height: 2;
+}
+.fourthTxtAndImg img{
+    width: 60%;
+}
+
+/* footer */
+footer{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 3em;
+}
+footer h2{
+    font-size: 3em;
+}
+.get{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.get p{
+    color: #9FA2A7;
+    font-weight: 100;
+}
+footer .get a{
+    color: #2B2C2E;
+}
+.get img{
+    width: 15%;
+}
